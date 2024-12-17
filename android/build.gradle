@@ -1,4 +1,4 @@
-group 'saad.farhan.flutter_facebook_sdk'
+group 'eby.dcentric.flutter_facebook_sdk'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -27,6 +27,8 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 31
+
+    namespace 'eby.dcentric.flutter_facebook_sdk'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
